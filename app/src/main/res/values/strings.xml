@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name">android-mvp-basic-sample</string>
+    <string name="app_name">MVPAppAndroid</string>
     <string name="logout">Logout</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
