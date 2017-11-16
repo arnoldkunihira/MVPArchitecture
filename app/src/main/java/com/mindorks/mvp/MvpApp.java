@@ -25,6 +25,7 @@ import com.mindorks.mvp.data.SharedPrefsHelper;
  * Created by Arnold on 24-10-2017.
  */
 
+//MvpApp class extends Application - An Android Class
 public class MvpApp extends Application {
 
     DataManager dataManager;

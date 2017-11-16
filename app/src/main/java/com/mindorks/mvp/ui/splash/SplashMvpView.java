@@ -22,6 +22,8 @@ import com.mindorks.mvp.ui.base.MvpView;
  * Created by Arnold on 24-10-2017.
  */
 
+// Interface for the view which extends MvpView.
+
 public interface SplashMvpView extends MvpView {
 
     void openMainActivity();

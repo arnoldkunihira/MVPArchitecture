@@ -31,8 +31,10 @@ import com.mindorks.mvp.ui.base.BaseActivity;
 import com.mindorks.mvp.ui.splash.SplashActivity;
 
 /**
- * Created by Arnold on 23-10-2017.
+ * Created by Arnold on 25-10-2017.
  */
+
+//What after Logged in? Time to move on to MainActivity, now let’s create
 
 public class MainActivity extends BaseActivity implements MainMvpView {
 

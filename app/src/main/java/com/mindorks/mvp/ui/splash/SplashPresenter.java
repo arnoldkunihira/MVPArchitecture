@@ -23,6 +23,8 @@ import com.mindorks.mvp.ui.base.BasePresenter;
  * Created by Arnold on 24-10-2017.
  */
 
+//After creating the interface, create class for the presenter which extends BasePresenter and
+//Implements the interface we have for this presenter.
 public class SplashPresenter<V extends SplashMvpView> extends BasePresenter<V> implements SplashMvpPresenter<V> {
 
     public SplashPresenter(DataManager dataManager) {

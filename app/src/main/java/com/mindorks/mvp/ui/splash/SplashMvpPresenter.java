@@ -22,6 +22,8 @@ import com.mindorks.mvp.ui.base.MvpPresenter;
  * Created by Arnold on 24-10-2017.
  */
 
+//Interface for the Presenter which extends MvpPresenter.
+
 public interface SplashMvpPresenter<V extends SplashMvpView> extends MvpPresenter<V> {
 
     void decideNextActivity();

@@ -23,6 +23,9 @@ import java.util.regex.Pattern;
  * Created by Arnold on 24-10-2017.
  */
 
+//We need LoginActivity after SplashActivity hence CommonUtils comes into place
+//In the login activity we will be needing to verify email provided by users below
+
 public class CommonUtils {
 
     public static boolean isEmailValid(String email) {

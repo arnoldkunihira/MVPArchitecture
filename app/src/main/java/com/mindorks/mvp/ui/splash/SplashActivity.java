@@ -32,6 +32,8 @@ import com.mindorks.mvp.ui.main.MainActivity;
  * Created by Arnold on 23-10-2017.
  */
 
+// Create launcher activity of the app which is our SplashActivity.
+
 public class SplashActivity extends BaseActivity implements SplashMvpView {
 
     SplashPresenter mSplashPresenter;
