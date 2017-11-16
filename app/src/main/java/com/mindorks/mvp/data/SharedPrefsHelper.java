@@ -25,6 +25,8 @@ import static android.content.Context.MODE_PRIVATE;
  * Created by Arnold on 22-10-2017.
  */
 
+//It is called only by datamanager. Presenter never directly interacts with SharedPrefsHelper.
+
 public class SharedPrefsHelper {
 
     public static final String MY_PREFS = "MY_PREFS";

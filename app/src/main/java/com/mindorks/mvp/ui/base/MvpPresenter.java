@@ -20,6 +20,8 @@ package com.mindorks.mvp.ui.base;
  * Created by Arnold on 22-10-2017.
  */
 
+//It is an interface that is implemented by BasePresenter, it acts as
+//base presenter interface that is extended by all other presenter interfaces.
 public interface MvpPresenter<V extends MvpView> {
 
     void onAttach(V mvpView);

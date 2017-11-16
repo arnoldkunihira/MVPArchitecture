@@ -22,6 +22,8 @@ import com.mindorks.mvp.data.DataManager;
  * Created by Arnold on 22-10-2017.
  */
 
+//It is base class for all presenter that implements MvpPresenter and
+//it is extended by all other presenters there in application.
 public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
 
     DataManager mDataManager;

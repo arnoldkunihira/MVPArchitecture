@@ -20,6 +20,8 @@ package com.mindorks.mvp.ui.base;
  * Created by Arnold on 22-10-2017.
  */
 
+//It is an interface that is implemented by BaseActivity,
+//it acts as a base view that is extended by all other view interfaces.
 public interface MvpView {
 
 }

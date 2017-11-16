@@ -20,6 +20,8 @@ package com.mindorks.mvp.data;
  * Created by Arnold on 22-10-2017.
  */
 
+//It is the only part of model that interacts with presenter and vice versa,
+//for interaction among other parts of model and presenter, datamanager acts as a middleman.
 public class DataManager {
 
     SharedPrefsHelper mSharedPrefsHelper;
