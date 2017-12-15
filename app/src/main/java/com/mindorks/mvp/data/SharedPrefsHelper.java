@@ -58,5 +58,4 @@ public class SharedPrefsHelper {
     public void setLoggedInMode(boolean loggedIn) {
         mSharedPreferences.edit().putBoolean("IS_LOGGED_IN", loggedIn).apply();
     }
-
 }

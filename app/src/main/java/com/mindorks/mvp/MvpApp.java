@@ -42,5 +42,4 @@ public class MvpApp extends Application {
     public DataManager getDataManager() {
         return dataManager;
     }
-
 }
